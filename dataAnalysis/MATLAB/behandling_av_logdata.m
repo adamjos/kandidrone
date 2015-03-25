@@ -3,7 +3,7 @@ clc;
 clf;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%Set input file and plot limits. All you have to do! :)
-name = 'mission-2015-03-05_02-29-44.txt';
+name = 'mission-2015-03-23_11-02-06.txt';
 xmin = 0;   %xmax set automatically
 zoom = 2;   %set zoom level fast. Options: 1,2,3 (3 most zoomed in)
 if zoom == 1
@@ -31,8 +31,8 @@ end
 %%Uncomment valid path
 %filename = strcat('/Users/Adam-MBP/Dropbox/Kandidatarbete/Matdata/Logfiler/',name);
 %filename = strcat('/Users/emilrosenberg/Dropbox/Kandidatarbete/Matdata/Logfiler/',name);
-%filename = strcat('/Users/JoachimBenjaminsson/Dropbox/Kandidatarbete/Matdata/Logfiler/',name);
-filename = strcat('/Users/kalle/Dropbox/Kandidatarbete/Matdata/Logfiler/',name);
+filename = strcat('/Users/JoachimBenjaminsson/Dropbox/Kandidatarbete/Matdata/Logfiler/',name);
+%filename = strcat('/Users/kalle/Dropbox/Kandidatarbete/Matdata/Logfiler/',name);
 delimiter = ',';
 %Format
 formatSpec = '%f%f%f%f%f%f%f%f%f%s%f%f%f%f%f%f%f%f%[^\n\r]';
